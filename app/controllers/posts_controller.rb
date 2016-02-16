@@ -11,6 +11,12 @@ class PostsController < ApplicationController
   	@post = Post.find(params[:id])
   end
 
+  def destroy
+   	@post = Post.find(params[:id])
+   	@post.destroy
+   	redirect_to root_url
+  end
+
   def create
   	@post = Post.new(permit_post)
   	if @post.save
