@@ -78,5 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
    # Devise gem
-  config.action_mailer.default_url_options = { host: 'boiling-savannah-20787.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'instragram.herokuapp.com'}
 end
