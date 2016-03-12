@@ -1,4 +1,4 @@
-== README
+== Instagram Clone Readme
 
 This is a mimic of Instagram, no scaffolds were created and everything is built from scratch.
 
